@@ -9,11 +9,8 @@ bin
 # gradle
 build
 .gradle
-
-
-# logs
-*.log
-logs
+*.bin
+*.lock
 
 # other
 eclipse
