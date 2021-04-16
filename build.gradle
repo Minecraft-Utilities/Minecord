@@ -29,7 +29,7 @@ repositories {
 }
 
 jar {
-	destinationDir = file("/home/aggelos/Documents/Java Projects/Minecord/Test Server/plugins")
+	destinationDir = file("exports/")
 	from {
 		configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
 	}
