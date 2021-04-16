@@ -1,0 +1,6 @@
+name: Minecord
+version: 0.1
+author: Aggelowe
+main: eu.aggelowe.minecord.Minecord
+api-version: 1.16
+depend: []
